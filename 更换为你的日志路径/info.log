@@ -1,0 +1,398 @@
+19:51:18.233 [restartedMain] INFO  com.wangzh.demon.DemonApplication - Starting DemonApplication on DESKTOP-B7TS01V with PID 7656 (E:\Project\Access_management_system\target\classes started by 机械革命 in E:\Project\Access_management_system)
+19:51:18.240 [restartedMain] INFO  com.wangzh.demon.DemonApplication - No active profile set, falling back to default profiles: default
+19:51:20.534 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+19:51:20.543 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+19:51:20.543 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+19:51:20.737 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:51:22.038 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+19:51:22.102 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+19:51:22.129 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+19:51:22.137 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.141 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: hello belongs to groups: [[ResourceGroup{groupName='hellocontroller', position=0, controller=com.wangzh.demon.controller.HelloController}]] 
+19:51:22.159 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /权限管理系统 客户端/hellocontroller Description: hellocontroller Position: 0
+19:51:22.228 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+19:51:22.228 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+19:51:22.241 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+19:51:22.241 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+19:51:22.262 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /hello.com.wangzh.demon.controller.HelloController.hello.DefaultGenericTypeNamingStrategy
+19:51:22.263 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /hello.com.wangzh.demon.controller.HelloController.hello.DefaultGenericTypeNamingStrategy
+19:51:22.274 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.277 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.283 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.284 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.285 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.286 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.286 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.287 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.288 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.289 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.290 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.290 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.291 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.292 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.292 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.293 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:51:22.333 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+19:51:22.373 [restartedMain] INFO  com.wangzh.demon.DemonApplication - Started DemonApplication in 4.482 seconds (JVM running for 6.276)
+19:51:34.975 [http-nio-8080-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1542435677,1543144599,1543743046; Webstorm-3cb90f0a=c8f1b2d6-4fa2-42fb-a906-0ef76806f30b] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+19:51:34.985 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:58:13.945 [restartedMain] INFO  com.wangzh.demon.DemonApplication - Starting DemonApplication on DESKTOP-B7TS01V with PID 14828 (E:\Project\Access_management_system\target\classes started by 机械革命 in E:\Project\Access_management_system)
+19:58:13.953 [restartedMain] INFO  com.wangzh.demon.DemonApplication - No active profile set, falling back to default profiles: default
+19:58:15.842 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+19:58:15.852 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+19:58:15.853 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+19:58:15.980 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:58:17.013 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+19:58:17.036 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+19:58:17.046 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+19:58:17.049 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.051 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: hello belongs to groups: [[ResourceGroup{groupName='hellocontroller', position=0, controller=com.wangzh.demon.controller.HelloController}]] 
+19:58:17.056 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /权限管理系统 客户端/hellocontroller Description: hellocontroller Position: 0
+19:58:17.084 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+19:58:17.084 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+19:58:17.090 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+19:58:17.090 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+19:58:17.095 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /hello.com.wangzh.demon.controller.HelloController.hello.DefaultGenericTypeNamingStrategy
+19:58:17.096 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /hello.com.wangzh.demon.controller.HelloController.hello.DefaultGenericTypeNamingStrategy
+19:58:17.104 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.106 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.111 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.112 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.112 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.113 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.113 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.114 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.114 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.115 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.115 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.116 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.117 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.117 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.118 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.118 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+19:58:17.146 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+19:58:17.178 [restartedMain] INFO  com.wangzh.demon.DemonApplication - Started DemonApplication in 3.584 seconds (JVM running for 5.42)
+19:59:34.853 [http-nio-8080-exec-6] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1542435677,1543144599,1543743046; Webstorm-3cb90f0a=c8f1b2d6-4fa2-42fb-a906-0ef76806f30b] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+19:59:34.854 [http-nio-8080-exec-3] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1542435677,1543144599,1543743046; Webstorm-3cb90f0a=c8f1b2d6-4fa2-42fb-a906-0ef76806f30b] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+19:59:34.855 [http-nio-8080-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1542435677,1543144599,1543743046; Webstorm-3cb90f0a=c8f1b2d6-4fa2-42fb-a906-0ef76806f30b] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+19:59:34.855 [http-nio-8080-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1542435677,1543144599,1543743046; Webstorm-3cb90f0a=c8f1b2d6-4fa2-42fb-a906-0ef76806f30b] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+19:59:34.861 [http-nio-8080-exec-5] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:19:03.758 [restartedMain] INFO  com.wangzh.demon.DemonApplication - Starting DemonApplication on DESKTOP-B7TS01V with PID 14772 (E:\Project\Access_management_system\target\classes started by 机械革命 in E:\Project\Access_management_system)
+20:19:03.766 [restartedMain] INFO  com.wangzh.demon.DemonApplication - No active profile set, falling back to default profiles: default
+20:19:05.553 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:19:05.561 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:19:05.562 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+20:19:05.672 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:19:06.857 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+20:19:06.869 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+20:19:06.876 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+20:19:06.879 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.881 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: hello belongs to groups: [[ResourceGroup{groupName='hellocontroller', position=0, controller=com.wangzh.demon.controller.HelloController}]] 
+20:19:06.884 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /权限管理系统 客户端/hellocontroller Description: hellocontroller Position: 0
+20:19:06.902 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+20:19:06.902 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+20:19:06.908 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+20:19:06.908 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20:19:06.912 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /hello.com.wangzh.demon.controller.HelloController.hello.DefaultGenericTypeNamingStrategy
+20:19:06.912 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /hello.com.wangzh.demon.controller.HelloController.hello.DefaultGenericTypeNamingStrategy
+20:19:06.918 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.920 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.922 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.923 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.923 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.924 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.925 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.925 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.926 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.926 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.927 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.927 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.928 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.929 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.930 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.930 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:19:06.950 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:19:06.978 [restartedMain] INFO  com.wangzh.demon.DemonApplication - Started DemonApplication in 3.546 seconds (JVM running for 5.138)
+20:19:29.817 [http-nio-8080-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1542435677,1543144599,1543743046; Webstorm-3cb90f0a=c8f1b2d6-4fa2-42fb-a906-0ef76806f30b] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+20:19:29.823 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:33:18.134 [main] INFO  com.wangzh.demon.DemonApplicationTests - Starting DemonApplicationTests on DESKTOP-B7TS01V with PID 18868 (started by 机械革命 in E:\Project\Access_management_system)
+20:33:18.135 [main] INFO  com.wangzh.demon.DemonApplicationTests - No active profile set, falling back to default profiles: default
+20:33:24.018 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+20:33:24.052 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+20:33:24.063 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+20:33:24.068 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.070 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: hello belongs to groups: [[ResourceGroup{groupName='hellocontroller', position=0, controller=com.wangzh.demon.controller.HelloController}]] 
+20:33:24.078 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /权限管理系统 客户端/hellocontroller Description: hellocontroller Position: 0
+20:33:24.109 [main] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+20:33:24.109 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+20:33:24.117 [main] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+20:33:24.117 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20:33:24.125 [main] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /hello.com.wangzh.demon.controller.HelloController.hello.DefaultGenericTypeNamingStrategy
+20:33:24.125 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /hello.com.wangzh.demon.controller.HelloController.hello.DefaultGenericTypeNamingStrategy
+20:33:24.135 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.139 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.142 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.143 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.144 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.145 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.146 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.147 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.148 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.149 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.150 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.151 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.152 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.153 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.155 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.156 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:33:24.200 [main] INFO  com.wangzh.demon.DemonApplicationTests - Started DemonApplicationTests in 6.403 seconds (JVM running for 8.047)
+20:33:25.223 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+20:33:25.225 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+20:33:28.123 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+20:35:09.307 [main] INFO  com.wangzh.demon.DemonApplicationTests - Starting DemonApplicationTests on DESKTOP-B7TS01V with PID 4132 (started by 机械革命 in E:\Project\Access_management_system)
+20:35:09.309 [main] INFO  com.wangzh.demon.DemonApplicationTests - No active profile set, falling back to default profiles: default
+20:35:14.586 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+20:35:14.610 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+20:35:14.622 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+20:35:14.628 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.632 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: hello belongs to groups: [[ResourceGroup{groupName='hellocontroller', position=0, controller=com.wangzh.demon.controller.HelloController}]] 
+20:35:14.638 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /权限管理系统 客户端/hellocontroller Description: hellocontroller Position: 0
+20:35:14.668 [main] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+20:35:14.669 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+20:35:14.679 [main] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+20:35:14.679 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20:35:14.687 [main] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /hello.com.wangzh.demon.controller.HelloController.hello.DefaultGenericTypeNamingStrategy
+20:35:14.687 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /hello.com.wangzh.demon.controller.HelloController.hello.DefaultGenericTypeNamingStrategy
+20:35:14.698 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.703 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.707 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.708 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.709 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.710 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.711 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.712 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.713 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.714 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.715 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.716 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.718 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.719 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.720 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.721 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:35:14.767 [main] INFO  com.wangzh.demon.DemonApplicationTests - Started DemonApplicationTests in 5.89 seconds (JVM running for 7.303)
+20:35:15.109 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+20:35:15.111 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+20:35:17.876 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+20:37:09.734 [main] INFO  com.wangzh.demon.DemonApplicationTests - Starting DemonApplicationTests on DESKTOP-B7TS01V with PID 13164 (started by 机械革命 in E:\Project\Access_management_system)
+20:37:09.735 [main] INFO  com.wangzh.demon.DemonApplicationTests - No active profile set, falling back to default profiles: default
+20:37:14.730 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+20:37:14.759 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+20:37:14.769 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+20:37:14.774 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.776 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: hello belongs to groups: [[ResourceGroup{groupName='hellocontroller', position=0, controller=com.wangzh.demon.controller.HelloController}]] 
+20:37:14.784 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /权限管理系统 客户端/hellocontroller Description: hellocontroller Position: 0
+20:37:14.809 [main] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+20:37:14.810 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+20:37:14.817 [main] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+20:37:14.817 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20:37:14.823 [main] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /hello.com.wangzh.demon.controller.HelloController.hello.DefaultGenericTypeNamingStrategy
+20:37:14.823 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /hello.com.wangzh.demon.controller.HelloController.hello.DefaultGenericTypeNamingStrategy
+20:37:14.834 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.838 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.841 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.842 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.843 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.844 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.845 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.846 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.846 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.847 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.848 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.848 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.850 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.850 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.851 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.851 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+20:37:14.889 [main] INFO  com.wangzh.demon.DemonApplicationTests - Started DemonApplicationTests in 5.565 seconds (JVM running for 6.971)
+20:37:15.291 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+20:37:15.293 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+20:37:18.129 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+21:02:03.872 [main] INFO  com.wangzh.demon.DemonApplicationTests - Starting DemonApplicationTests on DESKTOP-B7TS01V with PID 5944 (started by 机械革命 in E:\Project\Access_management_system)
+21:02:03.873 [main] INFO  com.wangzh.demon.DemonApplicationTests - No active profile set, falling back to default profiles: default
+21:02:10.508 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+21:02:10.547 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+21:02:10.562 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+21:02:10.569 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.573 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getRedis belongs to groups: [[ResourceGroup{groupName='redis-controller', position=0, controller=com.wangzh.demon.controller.RedisController}]] 
+21:02:10.575 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.576 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: hello belongs to groups: [[ResourceGroup{groupName='hellocontroller', position=0, controller=com.wangzh.demon.controller.HelloController}]] 
+21:02:10.576 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.576 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: setRedis belongs to groups: [[ResourceGroup{groupName='redis-controller', position=0, controller=com.wangzh.demon.controller.RedisController}]] 
+21:02:10.582 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /权限管理系统 客户端/redis-controller Description: redis-controller Position: 0
+21:02:10.584 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /权限管理系统 客户端/hellocontroller Description: hellocontroller Position: 0
+21:02:10.619 [main] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+21:02:10.619 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+21:02:10.631 [main] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+21:02:10.631 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+21:02:10.642 [main] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /hello.com.wangzh.demon.controller.HelloController.hello.DefaultGenericTypeNamingStrategy
+21:02:10.642 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /hello.com.wangzh.demon.controller.HelloController.hello.DefaultGenericTypeNamingStrategy
+21:02:10.688 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.694 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.698 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.701 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.702 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.703 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.705 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.706 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.707 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.709 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.710 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.711 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.712 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.713 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.715 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.716 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:10.755 [main] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+21:02:10.756 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+21:02:10.756 [main] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+21:02:10.756 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+21:02:10.757 [main] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /getRedis.com.wangzh.demon.controller.RedisController.getRedis.DefaultGenericTypeNamingStrategy
+21:02:10.757 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /getRedis.com.wangzh.demon.controller.RedisController.getRedis.DefaultGenericTypeNamingStrategy
+21:02:10.758 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.759 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.760 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.761 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.762 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.765 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.767 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.769 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.771 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.772 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.773 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.775 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.776 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.778 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.781 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.783 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:10.786 [main] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Void(true)
+21:02:10.786 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Void(true)
+21:02:10.786 [main] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Void(true)
+21:02:10.787 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Void(true)
+21:02:10.790 [main] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /setRedis.com.wangzh.demon.controller.RedisController.setRedis.DefaultGenericTypeNamingStrategy
+21:02:10.790 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /setRedis.com.wangzh.demon.controller.RedisController.setRedis.DefaultGenericTypeNamingStrategy
+21:02:10.792 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.793 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.794 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.795 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.796 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.796 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.797 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.798 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.798 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.800 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.802 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.803 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.805 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.806 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.807 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.807 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:10.844 [main] INFO  com.wangzh.demon.DemonApplicationTests - Started DemonApplicationTests in 7.36 seconds (JVM running for 9.324)
+21:02:11.336 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+21:02:11.340 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+21:02:13.214 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+21:02:31.619 [restartedMain] INFO  com.wangzh.demon.DemonApplication - Starting DemonApplication on DESKTOP-B7TS01V with PID 3108 (E:\Project\Access_management_system\target\classes started by 机械革命 in E:\Project\Access_management_system)
+21:02:31.625 [restartedMain] INFO  com.wangzh.demon.DemonApplication - No active profile set, falling back to default profiles: default
+21:02:33.834 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:02:33.843 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:02:33.844 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+21:02:33.994 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:02:35.668 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+21:02:35.686 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+21:02:35.694 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+21:02:35.698 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.700 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getRedis belongs to groups: [[ResourceGroup{groupName='redis-controller', position=0, controller=com.wangzh.demon.controller.RedisController}]] 
+21:02:35.702 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.702 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: hello belongs to groups: [[ResourceGroup{groupName='hellocontroller', position=0, controller=com.wangzh.demon.controller.HelloController}]] 
+21:02:35.702 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.703 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: setRedis belongs to groups: [[ResourceGroup{groupName='redis-controller', position=0, controller=com.wangzh.demon.controller.RedisController}]] 
+21:02:35.708 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /权限管理系统 客户端/hellocontroller Description: hellocontroller Position: 0
+21:02:35.709 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /权限管理系统 客户端/redis-controller Description: redis-controller Position: 0
+21:02:35.734 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+21:02:35.734 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+21:02:35.738 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+21:02:35.739 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+21:02:35.743 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /hello.com.wangzh.demon.controller.HelloController.hello.DefaultGenericTypeNamingStrategy
+21:02:35.743 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /hello.com.wangzh.demon.controller.HelloController.hello.DefaultGenericTypeNamingStrategy
+21:02:35.753 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.756 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.759 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.760 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.761 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.762 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.763 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.764 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.765 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.765 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.766 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.767 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.767 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.768 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.768 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.769 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was hellocontroller
+21:02:35.786 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+21:02:35.786 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+21:02:35.786 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+21:02:35.786 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+21:02:35.786 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /getRedis.com.wangzh.demon.controller.RedisController.getRedis.DefaultGenericTypeNamingStrategy
+21:02:35.787 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /getRedis.com.wangzh.demon.controller.RedisController.getRedis.DefaultGenericTypeNamingStrategy
+21:02:35.787 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.788 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.788 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.789 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.789 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.789 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.790 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.790 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.791 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.791 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.792 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.792 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.793 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.793 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.794 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.794 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getRedis was redis-controller
+21:02:35.795 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Void(true)
+21:02:35.795 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Void(true)
+21:02:35.796 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Void(true)
+21:02:35.796 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Void(true)
+21:02:35.797 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /setRedis.com.wangzh.demon.controller.RedisController.setRedis.DefaultGenericTypeNamingStrategy
+21:02:35.797 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /setRedis.com.wangzh.demon.controller.RedisController.setRedis.DefaultGenericTypeNamingStrategy
+21:02:35.798 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.798 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.799 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.799 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.800 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.800 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.801 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.801 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.802 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.803 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.803 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.804 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.804 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.805 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.806 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.807 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method setRedis was redis-controller
+21:02:35.821 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:02:35.860 [restartedMain] INFO  com.wangzh.demon.DemonApplication - Started DemonApplication in 4.57 seconds (JVM running for 6.315)
+21:03:13.147 [http-nio-8080-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1542435677,1543144599,1543743046; Webstorm-3cb90f0a=c8f1b2d6-4fa2-42fb-a906-0ef76806f30b] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+21:03:13.155 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:03:13.369 [http-nio-8080-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+21:03:13.371 [http-nio-8080-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
